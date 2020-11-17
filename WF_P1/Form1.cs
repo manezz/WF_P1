@@ -16,5 +16,27 @@ namespace WF_P1
         {
             InitializeComponent();
         }
+
+        private void BtnKlikHer_Click(object sender, EventArgs e)
+        {
+            String besked = "Hello";
+            MessageBox.Show(besked);
+        }
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void LbHelloWorld_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void TextBox1_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
     }
 }
