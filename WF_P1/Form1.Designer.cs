@@ -54,7 +54,7 @@ namespace WF_P1
             this.LbAdvarselsBesked.Size = new System.Drawing.Size(160, 24);
             this.LbAdvarselsBesked.TabIndex = 1;
             this.LbAdvarselsBesked.Text = "Advarsels Besked";
-            this.LbAdvarselsBesked.Click += new System.EventHandler(this.LbHelloWorld_Click);
+            this.LbAdvarselsBesked.Click += new System.EventHandler(this.LbAdvarselsBesked_Click);
             // 
             // TbInput
             // 
@@ -63,10 +63,11 @@ namespace WF_P1
             this.TbInput.Name = "TbInput";
             this.TbInput.Size = new System.Drawing.Size(193, 26);
             this.TbInput.TabIndex = 2;
-            this.TbInput.TextChanged += new System.EventHandler(this.TextBox1_TextChanged);
+            this.TbInput.TextChanged += new System.EventHandler(this.TbInput_TextChanged);
             // 
             // Form1
             // 
+            this.AcceptButton = this.BtnKlikHer;
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(448, 450);

@@ -19,8 +19,8 @@ namespace WF_P1
 
         private void BtnKlikHer_Click(object sender, EventArgs e)
         {
-            String besked = "Hello";
-            MessageBox.Show(besked);
+            MessageBox.Show("Advarsel!! " + TbInput.Text);
+            TbInput.Clear();
         }
 
         private void Form1_Load(object sender, EventArgs e)
@@ -28,12 +28,12 @@ namespace WF_P1
 
         }
 
-        private void LbHelloWorld_Click(object sender, EventArgs e)
+        private void LbAdvarselsBesked_Click(object sender, EventArgs e)
         {
 
         }
 
-        private void TextBox1_TextChanged(object sender, EventArgs e)
+        private void TbInput_TextChanged(object sender, EventArgs e)
         {
 
         }
